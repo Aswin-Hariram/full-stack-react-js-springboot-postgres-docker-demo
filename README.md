@@ -9,7 +9,12 @@ This is a full-stack web application using **React.js** for the frontend, **Spri
 - **Containerization**: Docker & Docker Compose
 
 ## 📂 Project Structure
-full-stack-app/ │── frontend/ # React.js application │── backend/ # Spring Boot application │── docker-compose.yml # Docker Compose for running services
+```
+full-stack-app/
+│── frontend/          # React.js application
+│── backend/           # Spring Boot application
+│── docker-compose.yml # Docker Compose for running services
+```
 
 ## 🚀 Getting Started
 
@@ -25,24 +30,30 @@ Ensure you have the following installed:
 ```sh
 git clone https://github.com/your-username/full-stack-react-js-springboot-postgres-docker-demo.git
 cd full-stack-react-js-springboot-postgres-docker-demo
-### 2️⃣ Run the Application with Docker Compose
-docker-compose up --build
-This will:
+```
 
-Start the PostgreSQL database
-Start the Spring Boot backend
-Start the React frontend
-🔗 API Endpoints
-User Authentication
-Signup: POST /auth/signup - Registers a new user
-Get All Users: GET /auth/users - Retrieves all registered users
-📜 License
+#### 2️⃣ Run the Application with Docker Compose
+```sh
+docker-compose up --build
+```
+<img width="1710" alt="Screenshot 2025-02-16 at 10 52 38 PM" src="https://github.com/user-attachments/assets/06e94b3f-a500-486c-acdf-e2c839062150" />
+<img width="1710" alt="Screenshot 2025-02-16 at 10 57 49 PM" src="https://github.com/user-attachments/assets/0e0cee64-3859-4079-b2c8-bad831250a59" />
+
+
+This will:
+- Start the PostgreSQL database
+- Start the Spring Boot backend
+- Start the React frontend
+
+## 🔗 API Endpoints
+
+### User Authentication
+- **Signup**: `POST /auth/signup` - Registers a new user
+- **Get All Users**: `GET /auth/users` - Retrieves all registered users
+
+## 📜 License
 This project is licensed under the MIT License.
 
-🚀 Happy Coding!
+---
 
-javascript
-Copy
-Edit
-
-Save this as `README.md` in your project root. Let me know if you need further improvem
+🚀 **Happy Coding!**
